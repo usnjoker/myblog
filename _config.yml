@@ -1,0 +1,42 @@
+permalink   : /:categories/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+paginate: 6 #6
+comments: true
+paginate_path: "/page/:num"
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed
+
+cover: /assets/images/default-cover.png
+
+# site title, description, meta_description, meta_keywords
+# Details for the RSS feed generator
+name: 정원석
+title: WS Jung's Blog
+description: "java spring development blog"
+keywords: "spring, java, 스프링, 자바"
+url: http://usnjoker.com
+baseurl: "/mug"
+domain_name: usnjoker.com
+# google_analytics: UA-52446115-1
+#repo: http://github.com/nandomoreirame/mug
+disqus_shortname: "wsjungsblog"
+
+author:
+  name      : 정원석(WS Jung)
+  image     : /assets/images/author.jpg
+  email     : ws.jung.d@gmail.com
+  url       : http://usnjoker.com
+  facebook  : http://facebook.com/jung.david.7
+  twitter   : http://twitter.com/nandomoreirame
+  instagram : http://instagram.com/nandomoreira.me
+  github    : http://github.com/usnjoker
+  linkedin  : http://linkedin.com/in/원석-정-3985668b
+  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
