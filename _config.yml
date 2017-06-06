@@ -21,11 +21,11 @@ title: WS Jung's Blog
 description: "java spring development blog"
 keywords: "spring, java, 스프링, 자바"
 url: http://usnjoker.com
-baseurl: "/mug"
+baseurl: "/myblog"
 domain_name: usnjoker.com
 # google_analytics: UA-52446115-1
 #repo: http://github.com/nandomoreirame/mug
-disqus_shortname: "wsjungsblog"
+disqus_shortname: "ws-jungs-blog"
 
 author:
   name      : 정원석(WS Jung)

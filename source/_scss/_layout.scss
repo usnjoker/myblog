@@ -49,8 +49,8 @@
   transition: background-color .2s linear, color .2s linear, border-color .2s linear;
   border-radius: 4px;
   box-shadow: none;
-  background-color: $primary-color;
-  border: 2px solid lighten($primary-color, 4%);
+  background-color: $emphasis-color;
+  border: 2px solid lighten($emphasis-color, 4%);
   color: $white-color;
   cursor: pointer;
   display: inline-block;
@@ -63,8 +63,8 @@
 
   &:hover,
   &:active {
-    background-color: lighten($primary-color, 5%);
-    border-color: lighten($primary-color, 7%);
+    background-color: lighten($emphasis-color, 5%);
+    border-color: lighten($emphasis-color, 7%);
     color: darken($white-color, 5%);
   }
 
@@ -92,7 +92,7 @@
 
   .icon {
     position: absolute;
-    color: rgba($primary-color, .7);
+    color: rgba($emphasis-color, .7);
     right: 20px;
     top: 15px;
   }
@@ -104,7 +104,7 @@
 
 .dropdown {
   background-color: $white-color;
-  box-shadow: 0px 2px 2px rgba($black-color, .2);
+  box-shadow: 0px 2px 2px rgba($font-color, .2);
   position: absolute;
   top: 100%;
   margin-top: 1px;
@@ -129,7 +129,7 @@
   a:hover,
   a:focus,
   a:active {
-    background-color: $primary-color;
+    background-color: $emphasis-color;
     color: $white-color;
   }
 }
@@ -164,14 +164,13 @@
  */
 .site-header,
 .site-footer {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
   background-color: $secondary-color;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .site-header {
-  border-top: 5px solid $black-color;
+  border-top: 5px solid $font-color;
   padding: {
     top: 1.4em;
     bottom: 3em;
@@ -188,8 +187,8 @@
   opacity: .7;
   display: inline-block;
   transition: opacity .2s ease;
-  padding: 5px;
-  border: 1px solid $white-color;
+  padding: 1px;
+  border: 6px solid $white-color;
 
   img {
     width: 100px;
@@ -204,9 +203,9 @@
   }
 }
 
-$sliding-panel-background: lighten($black-color, 5%);
+$sliding-panel-background: lighten($font-color, 5%);
 $sliding-panel-color: #fff;
-$sliding-panel-border: 1px solid $black-color;
+$sliding-panel-border: 1px solid $font-color;
 $sliding-panel-color-hover: #fff;
 $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
@@ -237,7 +236,7 @@ $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
     &:focus,
     &:hover {
-      background-color: $primary-color;
+      background-color: $emphasis-color;
       color: $sliding-panel-color-hover;
     }
   }
@@ -314,7 +313,7 @@ $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
     &:hover,
     &:focus {
-      color: lighten($primary-color, 10%);
+      color: lighten($emphasis-color, 10%);
     }
   }
 

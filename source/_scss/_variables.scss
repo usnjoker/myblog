@@ -2,15 +2,17 @@
 //=            Variables          =
 //=================================
 
-$primary-color: #34495e !default;
-$secondary-color: #22313f !default;
+$emphasis-color: #00ab9e !default;
+//$secondary-color: #22313f !default;
+$secondary-color: #343434 !default;
 
-$black-color: #000 !default;
-$silver-color: #eee !default;
-$white-color: #fff !default;
+$font-color: #e2e2e2 !default;
+$silver-color: #00ab9f !default;
+$white-color: #e2e2e2 !default;
 
-$bg-color: #f7f8f9 !default;
-$txt-color: rgba($black-color, .8) !default;
+$bg-color: #444455 !default;
+$txt-color: rgba($font-color, .8) !default;
+$highlight-color: #FF3333 !default;
 
 $font-family-base: "Ubuntu", Helvetica, sans-serif !default;
 $font-size-base: 18px !default;
@@ -18,11 +20,11 @@ $line-height-base: 1.6 !default;
 $font-weight-base: 400 !default;
 $font-weight-bold: 700 !default;
 
-$link-color: $primary-color !default;
+$link-color: $emphasis-color !default;
 $link-hover-color: darken($link-color, 10%) !default;
 
 $default-feature: min-width !default;
-$container-width: 38em !default;
+$container-width: 50em !default;
 $gutter-width: 30px !default;
 $gutter-padding: ($gutter-width / 2) !default;
 
